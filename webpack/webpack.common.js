@@ -10,7 +10,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.ts', '.js', '.tsx'],
+    extensions: ['.tsx', '.ts', '.js'],
   },
 
   module: {
@@ -34,16 +34,9 @@ module.exports = {
       },
     ],
   },
-
-  mode: 'development',
-
-  devServer: {
-    port: 5000, // you can change the port
-  },
-
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, '..', './src/index.html'),
+      template: path.resolve(__dirname, '..', 'public/index.html'),
     }),
   ],
 }
