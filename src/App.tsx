@@ -5,7 +5,6 @@ import LOGO from './assets/Icons/facebook.svg'
 import Counter from './components/Counter'
 
 const App = () => {
-  const num = 'abc'
   return (
     <>
       <h1>Demo App for React + Webpack configuration!! </h1>
